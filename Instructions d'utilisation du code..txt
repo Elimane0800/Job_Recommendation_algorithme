@@ -1,0 +1,30 @@
+Pour rejouer le code, vous devez suivre les étapes suivantes :
+
+- Téléchargez et installez Anaconda sur : https://www.anaconda.com/open-source
+
+- Lancez Anaconda Prompt (Anaconda 3) et copiez le chemin d'accès du dossier précédé par la commande "cd"
+
+- Puis tapez espace et écrinez "jupyter notebook"
+
+- Une page web s'ouvrira dans laquelle vous verrez le fichier RESULTATS_TEST_YASSINE_DATA_SCIENTIST_ALTERNANT.ipynb
+
+- Exécutez ce fichier
+
+- Installez les bibliothèques requises dans le terminal "anaconda prompt" :
+
+pandas : pip install pandas
+scikit-learn : pip install scikit-learn
+
+A priori si vous utilisez jupyter notebook vous n'aurez pas besoin d'effectuer ces installations
+
+- Assurez-vous que vous avez les fichiers de données suivants dans le même répertoire que votre script Python :
+
+jobs.csv , users.csv , users_history.csv , feedbacks.csv  , test_users.csv 
+
+- Copiez et collez le code dans votre script Python.
+
+Exécutez le script.
+
+Le code chargera les données à partir des fichiers CSV, fera de l'exploration de données en répartissant le nombre d'offres par secteur d'activités, effectuera la recommandation basée sur le contenu en utilisant la méthode recommend_jobs_content_based, affichera les recommandations pour chaque utilisateur de test, comptera et affichera le nombre de personnes n'ayant pas reçu de recommandations, ainsi que la liste des utilisateurs n'ayant pas reçu de recommandations.
+
+Assurez-vous de mettre à jour les chemins d'accès aux fichiers CSV si nécessaire, afin qu'ils correspondent à l'emplacement réel des fichiers sur votre système.
